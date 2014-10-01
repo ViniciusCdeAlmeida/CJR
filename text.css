@@ -1,0 +1,86 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+div#site{
+border: 5px solid mediumblue;
+background-color: mediumblue;
+font-weight: bolder;
+color: white;
+ margin: 0cm 4cm 3cm 4cm;
+}
+
+div#header{
+border: 5px solid darkblue;	
+font-weight: bolder;
+color: white;
+background-color: darkblue;
+margin: 0.5cm 0.5cm 0.5cm 0.5cm;
+} 
+
+
+div#logo{
+border: 5px solid lightgray;	
+font-weight: bolder;
+color: white;
+background-color: lightgray;
+margin: 0.3cm 0.3cm 0.3cm 0.3cm;
+} 
+
+
+div#menu{
+border: 5px solid lightgray;	
+font-weight: bolder;
+color: white;
+background-color: lightgray;
+margin: 0.3cm 0.3cm 0.3cm 0.3cm;
+} 
+
+div#banner{
+border: 5px solid darkblue;	
+font-weight: bolder;
+color: white;
+background-color: darkblue;
+margin: 0.5cm 0.5cm 0.5cm 0.5cm;
+}
+
+div#comentario{
+border: 5px solid lightgray;	
+font-weight: bolder;
+color: white;
+background-color: lightgray;
+margin: 0.3cm 0.3cm 0.3cm 0.3cm;
+} 
+
+div#conteudo{
+border: 5px solid darkblue;	
+font-weight: bolder;
+color: white;
+background-color: darkblue;
+margin: 0.5cm 0.5cm 0.5cm 0.5cm;
+}
+
+div#esquerdo{
+border: 5px solid lightgray;	
+font-weight: bolder;
+color: white;
+background-color: lightgray;
+margin: 0.3cm 0.3cm 0.3cm 0.3cm;
+} 
+
+.noticia{
+border: 5px solid gray;	
+font-weight: bolder;
+color: white;
+background-color: gray;
+margin: 0.5cm 0.5cm 0.5cm 0.5cm;	
+}
+
+div h1{
+color: black;
+}
+div h2{
+	color: black;
+}
