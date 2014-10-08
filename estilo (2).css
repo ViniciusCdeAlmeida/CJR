@@ -6,7 +6,7 @@ body{
 	font-style: italic;
 }
 
-.menu{list-style:none; border:1px double #FF0000; float:left;
+.menu{list-style:none; border:1px double #FF0000; float:right;
  background-color: red;}
 
 .menu li{position:relative; float:left; border-right:1px dotted lightblue; }
