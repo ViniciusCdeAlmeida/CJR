@@ -1,0 +1,89 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+
+}
+
+
+div{
+	position: absolute;
+	text-align: center;
+}	
+
+#plano1{
+	position: relative;
+	width: 960px;
+	height: 720px;
+	background-image: url('../img/background1.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	bottom: 10px;
+	left: 175px;
+}
+
+.banner{
+}
+
+.menu{
+background-color: black;
+opacity: 0.57;
+list-style:none;
+float:right;
+position: relative;
+padding-left: 718px;
+font-style: italic;
+}
+
+.menu li{
+position:relative;
+float:left;
+color: white;
+}
+
+#item{
+border-right: 1px solid;
+padding-right: 10px;	
+}
+
+#item2{
+border-right: 1px solid;
+padding-right: 10px;	
+}
+
+.menu li a:hover{
+background:#C0C0C0;
+color: white;
+-moz-box-shadow:0 3px 10px 0 #000;
+-webkit-box-shadow:0 3px 10px 0 #000;
+text-shadow:0px 0px 1px #C0C0C0;
+}
+
+.menu li ul{
+position:absolute;
+top:60px;
+left:0;
+background-color:#C0C0C0;
+display:none;
+}
+
+.menu li ul li{
+display: block;
+width:200px;
+  
+}
+
+*{
+margin: 2px; padding: 2px;
+}
+
+.menu li:hover ul, .menu li.over ul{
+display:block;
+
+}
+
+.menu li a{
+color: white; 
+text-decoration:none; 
+}
