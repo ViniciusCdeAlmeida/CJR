@@ -2,13 +2,15 @@
 }
 
 div.img {
-    margin: 1%;
     padding: 10px;
     border: 1px solid #0000ff;
     height: 10%;
     width: auto;
     float: left;
+    margin-left: 12%;
+    margin-top: 50px;
     text-align: center;
+   
 }	
 
 div.img img {
