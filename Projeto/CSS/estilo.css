@@ -1,6 +1,3 @@
-.fundo {width: 100%; height: 100%;
-}
-
 div.img {
     padding: 10px;
     border: 1px solid #0000ff;
@@ -117,10 +114,12 @@ div.desc {
 
 #botao {
     font-size: 20px;
-    font-family: Arial;
     font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
     font-style: italic;
-    padding: 22px 47px;
+    border: 5px solid #FFFFFF;
+    padding: 23px 47px;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0);
     cursor: pointer;
     color: #FCF9F9;
     display: inline-block;
