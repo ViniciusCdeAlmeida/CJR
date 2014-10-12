@@ -124,11 +124,11 @@ div.desc {
     cursor: pointer;
     color: #FCF9F9;
     display: inline-block;
-    background-color: #C9F0F0;
+    background-color: #E1CDAA;
 }
 
 #botao:hover {
-    background-color: #000000;
+    background-color: #232930;
 }
 
 #botao:active {
