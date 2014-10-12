@@ -69,4 +69,38 @@ div.desc {
 	background-size: Cover;
 	position: relative;
 	height: 1080px;
+}
+
+#escrever {
+	text-align: center;
+	display: block;
+}
+
+#escrever form{
+	top: 1000px;
+	position: relative;
 	}
+
+#escrever form h1{
+	font-family: 'Open Sans', sans-serif;
+ 	font-size: 17px;
+}
+
+#escrever form p{
+	font-family: 'Open Sans', sans-serif;
+ 	font-size: 30px;
+ 	font-weight: bold;
+
+}
+
+#escrever form hr{
+	background: no-repeat;
+	width: 2%;
+}
+
+#input{
+	border: solid 2px #00E3E3;
+	 height: 30px;
+	 width:400px;
+	 margin-bottom: 20px;
+}
