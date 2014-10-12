@@ -110,6 +110,7 @@ div.desc {
 	 min-width: 382px;
 	 padding: 10px;
 	 margin-bottom: 20px;
+	 
 }
 
 #botao {
@@ -118,7 +119,7 @@ div.desc {
     font-family: 'Open Sans', sans-serif;
     font-style: italic;
     border: 5px solid #FFFFFF;
-    padding: 23px 47px;
+    padding: 15px 50px;
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0);
     cursor: pointer;
     color: #FCF9F9;
@@ -131,5 +132,32 @@ div.desc {
 }
 
 #botao:active {
+    position:relative;
+    }
+
+
+
+
+#botao2 {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    border: 2px solid #232930;
+    padding: 10px 59px;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0);
+    cursor: pointer;
+    color: black;
+    display: inline-block;
+    background-color: white;
+}
+
+#botao2:hover {
+
+    color: white;
+    background-color: #232930;
+}
+
+#botao2:active {
     position:relative;
     }
