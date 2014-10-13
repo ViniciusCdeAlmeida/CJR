@@ -1,12 +1,13 @@
 div.img {
     padding: 10px;
     border: 1px solid #0000ff;
-    height: 10%;
     width: auto;
     float: left;
     margin-left: 12%;
-    margin-top: 120px;
+    margin-right: -10px;
+    margin-top: 170px;
     text-align: center;
+    margin-bottom: -90px;
    
 }	
 
@@ -30,67 +31,159 @@ div.desc {
 	background: url('../img/background1.jpg'), no-repeat;
 	background-size: Cover;
 	position: relative;
-	height: 1080px;
-	}
+	height: 1100px;
+	margin-top: -43px;
+	margin-left: -8px;
 	
-
-.menu{
-	background-color: black;
-	opacity: 0.57;
-	list-style:none;
-	float:right;
-	position: relative;
-	padding-left: 718px;
-	font-style: italic;
+	margin-right: -9px;
 }
 
-.menu li{
-	position:relative;
-	float:left;
+#plano1 h2 {
 	color: white;
+	font-family: 'Open Sans', sans-serif;
+ 	font-size: 52px; 
+   position: relative; 
+   top: 450px;  
+   text-align: center;
 }
 
-#item{
-	border-right: 1px solid;
-	padding-right: 10px;	
+#plano1 h1 {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+ 	font-size: 22px; 
+   position: relative; 
+   top: 490px;  
+   text-align: center;
+   font-style: italic;
 }
 
-#item2{
-	border-right: 1px solid;
-	padding-right: 10px;	
-}
 
 #plano2{
 	top: 820px;
 	background: url('../img/background2.jpg'), no-repeat;
 	background-size: Cover;
 	position: relative;
-	height: 1080px;
+	height: 920px;
+	margin-left: -8px;
+	margin-right: -9px;
+
 }
 
-#escrever {
+#plano2 h1 {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+ 	font-size: 22px; 
+   	position: relative;   
+   	font-weight: bold;
+}
+
+
+#plano3 p{
+	color: #232930;
+	font-family: 'Open Sans', sans-serif;
+ 	font-size: 35px; 
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 100px;
+}
+
+#plano3 h1{
+		font-family: 'Open Sans', sans-serif;
+ 	font-size: 14px;
+ 	color: #232930;
+ 	text-align: center;
+ 	margin-bottom: -100px;
+}
+
+#plano3 hr{
+	background: no-repeat;
+	width: 2%;
+}
+
+#plano4{
+	top: 220px;
+	width: 1300px;
+	height: 750px;
+	border: 100px #CC9D9D solid;
+	background-color: #DBDBDB;
+	background: url('../img/imagem-portfolio1.png'), no-repeat;
+	background-size: Cover;
+	position: relative;
+	margin-left: 25px;
+
+}
+
+
+#borda1 {
+	border: solid 2px white;
+
+    border-radius: 113px;
+    -moz-border-radius: 113px;
+    -webkit-border-radius: 113px;
+    padding: 50px;
+    text-align: left;
+    margin-left: -1000px;
+   position: relative;
+   float: left;
+    margin-top: 80px;
+}
+
+
+#borda2 {
+	border: solid 2px white;
+
+    border-radius: 113px;
+    -moz-border-radius: 113px;
+    -webkit-border-radius: 113px;
+    padding: 50px;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: -550px;
+   	position: relative;
+   	float: left;
+}
+
+
+#borda3 {
+	border: solid 2px white;
+
+    border-radius: 113px;
+    -moz-border-radius: 113px;
+    -webkit-border-radius: 113px;
+    padding: 50px;
+    text-align: left;
+    margin-left: -150px;
+   position: relative;
+   float: left;
+    margin-top: 80px;
+}
+
+#formulario {
 	text-align: center;
 	display: block;
 }
 
-#escrever form{
+#formulario form{
 	top: 1000px;
 	position: relative;
 	}
 
-#escrever form h1{
+#formulario form h1{
 	font-family: 'Open Sans', sans-serif;
  	font-size: 17px;
+ 	color: #232930;
 }
 
-#escrever form p{
+#formulario form p{
 	font-family: 'Open Sans', sans-serif;
  	font-size: 30px;
  	font-weight: bold;
+ 	color: #232930;
 
 }
 
-#escrever form hr{
+#formulario form hr{
 	background: no-repeat;
 	width: 2%;
 }
@@ -110,7 +203,7 @@ div.desc {
 	 min-width: 382px;
 	 padding: 10px;
 	 margin-bottom: 20px;
-	 
+
 }
 
 #botao {
@@ -123,8 +216,8 @@ div.desc {
     text-shadow: 1px 1px 0px rgba(255, 255, 255, 0);
     cursor: pointer;
     color: #FCF9F9;
-    display: inline-block;
     background-color: #E1CDAA;
+    position: relative;
 }
 
 #botao:hover {
@@ -136,9 +229,8 @@ div.desc {
     }
 
 
-
-
 #botao2 {
+	top: 300px;
     font-size: 20px;
     font-weight: normal;
     font-family: 'Open Sans', sans-serif;
@@ -161,3 +253,85 @@ div.desc {
 #botao2:active {
     position:relative;
     }
+
+#botao3 {
+	text-align: center;
+
+}
+
+#botao3 form{
+	top: 300px;
+	position: relative;
+	margin-bottom: 500px;
+	}
+
+.box1{
+	position: relative;
+	top: 500px;
+}
+
+.barra{
+	position: relative;
+	background-color: black;
+	opacity: 0.57;
+	height: 80px;
+	width: 1583px;
+	top: -200px;
+	left: -4px;	
+}
+
+.menu{
+	list-style:none;
+	position: relative;
+	font-style: italic;
+	float: right;
+	top: 20px;
+	right: 60px;
+}
+
+.menu li{
+	position:relative;
+	float:left;
+	color: white;
+}
+
+#item{
+	border-right: 1px solid;
+	padding-right: 10px;	
+}
+
+.menu li a:hover{
+background:#000000;
+color: white;
+-moz-box-shadow:0 3px 10px 0 #000;
+-webkit-box-shadow:0 3px 10px 0 #000;
+text-shadow:2px 2px 1px #C0C0C0;
+}
+
+.menu li ul{
+	position:absolute;
+	top:60px;
+	left:0;
+	background-color:#000000;
+	display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{
+	display:block;
+
+}
+
+.menu li a{
+	color: white; 
+	text-decoration:none; 
+}
+
+
+.box1 h4{
+	position: relative;
+	top: 130px;
+	right: 120px;
+	color: #E1CDAA;
+	font-style: italic;
+	font-size: 26px;
+}
