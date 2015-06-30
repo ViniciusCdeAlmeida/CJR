@@ -1,0 +1,71 @@
+body {
+  padding-top: 50px;
+  background-color: #A9A9A9;
+}
+
+.topo{
+	background-color: #00008B;
+}
+.site {
+  text-align: left;
+  color: white;
+  font-family: Verdana;
+  background-color: #00008B;
+}
+.cabecalho{
+	color: white;
+	}
+
+.logo{
+	color: white;
+}
+
+.banner{
+	color: white;
+	}
+
+.conteudo{
+	color: white;
+	}
+
+.rodape{
+	color: white;
+	}
+
+.box_externo{
+
+	width: 300px solid navy;
+    padding: 25px solid navy;
+    border: 5px solid navy;
+    margin: 25px solid navy;
+ 	background-color: blue;
+
+}
+
+.box{
+	
+    width: 300px solid navy;
+    padding: 25px solid navy;
+    border: 5px solid navy;
+    margin: 25px solid navy;
+ 	background-color: blue;
+   
+	border-style:ridge groove ridge groove;
+}
+
+.box_interno{
+	
+    border: 5px solid navy;
+    background-color: #A9A9A9;
+    border-style:dotted dotted;
+   
+	
+}
+
+.box_mais_interno{
+	
+    border: 5px solid navy;
+ 	background-color: #008B8B;
+ 	 border-style:double; 
+	
+}
